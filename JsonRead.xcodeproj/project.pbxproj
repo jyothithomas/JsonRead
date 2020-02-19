@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B275FC523FDF4B20070B398 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B275FC423FDF4B20070B398 /* main.swift */; };
+		9B275FCF23FDF77D0070B398 /* data.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B275FCB23FDF4FB0070B398 /* data.txt */; };
+		9B275FD223FDFBCA0070B398 /* Singleuser.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B275FD023FDFA620070B398 /* Singleuser.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +22,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9B275FCE23FDF7780070B398 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B275FCF23FDF77D0070B398 /* data.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B275FD123FDFBC40070B398 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B275FD223FDFBCA0070B398 /* Singleuser.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B275FC123FDF4B20070B398 /* JsonRead */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonRead; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B275FC423FDF4B20070B398 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B275FCB23FDF4FB0070B398 /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		9B275FD023FDFA620070B398 /* Singleuser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Singleuser.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				9B275FC423FDF4B20070B398 /* main.swift */,
+				9B275FCB23FDF4FB0070B398 /* data.txt */,
+				9B275FD023FDFA620070B398 /* Singleuser.json */,
 			);
 			path = JsonRead;
 			sourceTree = "<group>";
@@ -72,6 +98,8 @@
 				9B275FBD23FDF4B20070B398 /* Sources */,
 				9B275FBE23FDF4B20070B398 /* Frameworks */,
 				9B275FBF23FDF4B20070B398 /* CopyFiles */,
+				9B275FCE23FDF7780070B398 /* CopyFiles */,
+				9B275FD123FDFBC40070B398 /* CopyFiles */,
 			);
 			buildRules = (
 			);
