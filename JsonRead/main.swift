@@ -37,10 +37,23 @@ func readJSONUserInfo(fileName: String)
     
     guard let json = try? JSONSerialization.jsonObject(with: data, options: [])
         else {
-            print("error")
+            print("error while reading json from file")
             return
     }
-    print(json)
+    //print(json)
+    
+    if let userDictionary = json as? [String: Any]
+    {
+        print(userDictionary)
+         let id = userDictionary["id"] ?? "No ID Found"
+            print(id)
+        if let addressDictionary = userDictionary["address"] as? [String: Any]
+        {
+            print(addressDictionary["city"]!)
+        }
+        
+        
+    }
 }
 
 readJSONUserInfo(fileName: "Singleuser")
